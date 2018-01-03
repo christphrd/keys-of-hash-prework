@@ -6,7 +6,7 @@ class Hash
     binding.pry
     values_array.map do |e|
       binding.pry
-      self.each do |k,v|
+      self.map do |k,v|
         binding.pry
         if v == e
           binding.pry
