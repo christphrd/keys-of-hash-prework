@@ -7,6 +7,7 @@ class Hash
     values_array.each do |e|
       self.each do |k,v|
         if v == e
+          binding.pry
           keys_array << k
         end
       end
