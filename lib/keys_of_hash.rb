@@ -3,8 +3,8 @@ require "pry"
 class Hash
   def keys_of(*arguments)
     values_array = [*arguments]
-    values_array.each do |e|
-      self.map do |k,v|
+    values_array.map do |e|
+      self.each do |k,v|
         if v == e
           k
         end
