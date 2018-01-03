@@ -9,7 +9,7 @@ class Hash
         binding.pry
         if v == e
           binding.pry
-          k
+          keys_array << k
         end
       end
     end
